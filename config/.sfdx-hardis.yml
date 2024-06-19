@@ -1,0 +1,5 @@
+projectName: WorkforceManagement
+devHubAlias: DevHub_WorkforceManagement
+developmentBranch: develop
+autoCleanTypes:
+  - destructivechanges
