@@ -2,11 +2,19 @@
   "packageDirectories": [
     {
       "path": "force-app",
-      "default": true
+      "default": true,
+      "dependencies": [
+        {
+          "package": "bf-dev-framework"
+        }
+      ]
     }
   ],
   "name": "WorkforceManagement",
   "namespace": "",
   "sfdcLoginUrl": "https://login.salesforce.com",
-  "sourceApiVersion": "60.0"
+  "sourceApiVersion": "60.0",
+  "packageAliases": {
+    "bf-dev-framework": "04t09000000S8p4AAC"
+  }
 }

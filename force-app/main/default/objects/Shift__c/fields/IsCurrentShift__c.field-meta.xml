@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>IsCurrentShift__c</fullName>
+    <description>Is current shift</description>
+    <externalId>false</externalId>
+    <formula>Start__c &lt;= NOW() &amp;&amp; End__c &gt;= NOW()</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Is Current Shift</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

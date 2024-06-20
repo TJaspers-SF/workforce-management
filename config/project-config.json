@@ -1,0 +1,21 @@
+{
+    "config": {
+        "name": "worforce-management",
+        "targetusername": "worforce-management-tj",
+        "alias": "worforce-management",
+        "path": "worforce-management",
+        "targetdevhubusername": "DevHub",
+        "package_repo": "bf-pkg-repo",
+        "settings": {
+            "code_scan": {
+                "config": "config/pmd-ruleset.xml",
+                "target": "./worforce-management",
+                "format": "html",
+                "outfile": "./reports/scans/scan_results.html"
+            },
+            "apex_unit_test": {
+                "outputdir": "./reports/unit-tests/apex"
+            }
+        }
+    }
+}
